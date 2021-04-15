@@ -106,14 +106,6 @@ Once setup, you can use the library in your code as follows
    
   /***
    * Create a log entry using operation code, parameters (spread)
-   * @param String username
-   * @param String organization
-   * @param String operation
-   */
-   HITStatsLogger.logOp(organization, parameters)
-   
-  /***
-   * Create a log entry using operation code, parameters (spread)
    * @param String operation
    * @param String[] parameters (spread)
    */
