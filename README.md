@@ -153,6 +153,13 @@ The DATE_TIME format is the following : [dd/MMM/yyyy:HH:mm:ss Z]
       
 ```
 
+## Troubleshooting
+
+If you are using the default log directory you need to make sure that the directory ***/var/log/hit-stats*** exists and is given permission to read and write
+```bash
+> sudo chmod +rw /var/log/hit-stats
+```
+
 
 
 
