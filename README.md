@@ -64,6 +64,13 @@ Inside your **logback.xml** configuration file include hit-stats-logger configur
 </configuration>
 ```
 
+To turn off logging you can add the following to your **logback.xml** configuration
+
+```xml
+    <logger name="HIT_STATS_LOGGER" level="OFF"/>
+
+```
+
 Once setup, you can use the library in your code as follows
 
 ```java
@@ -134,7 +141,7 @@ Value Labels are the following
 DATE_TIME    USERNAME    ORGANIZATION    OPERATION    [PARAMETER]*
 ```
 
-The DATE_TIME format is the following : YYYY-MM-DD HH:mm:ss.SSS
+The DATE_TIME format is the following : [dd/MMM/yyyy:HH:mm:ss Z]
 
 ## Log directory hierarchy
 ```
